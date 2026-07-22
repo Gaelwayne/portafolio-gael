@@ -1,0 +1,178 @@
+export const translations = {
+  es: {
+    nav: {
+      home: 'Inicio',
+      experience: 'Experiencia',
+      projects: 'Proyectos',
+      about: 'Sobre mí',
+    },
+    hero: {
+      title: 'Desarrollador de Software e Ingeniero de Sistemas',
+      description: 'Ingeniero de Sistemas con experiencia híbrida en desarrollo de software, administración de infraestructura y docencia tecnológica. Capacidad probada para la resolución de incidencias críticas y construcción de servicios web robustos.',
+      downloadCV: 'Descargar CV',
+    },
+    experience: {
+      title: 'Experiencia Profesional',
+      job1: {
+        title: 'Maestro de Tecnología',
+        company: 'Escuela Secundaria Judith Gaxiola de Valdez',
+        period: 'Abr 2022 - Jul 2024',
+        location: 'Culiacán, Sinaloa',
+        desc: [
+          'Instrucción y desarrollo de planes de estudio enfocados en alfabetización digital, lógica de programación y uso de herramientas tecnológicas',
+          'Gestión de laboratorios de cómputo, asegurando la operatividad del hardware y la integridad de la red escolar',
+          'Mentoría en proyectos estudiantiles de innovación tecnológica y fomento del pensamiento crítico a través de la informática',
+        ],
+      },
+      job2: {
+        title: 'Desarrollador de Software',
+        company: 'Quantum Connect',
+        period: 'Abr 2022 - Jul 2024',
+        location: 'Culiacán, Sinaloa',
+        desc: [
+          'Desarrollo y mantenimiento de aplicaciones web con Java y JavaScript, utilizando el ecosistema Spring',
+          'Uso de servicios en la nube de AWS (S3, EC2 y DynamoDB) para el despliegue y persistencia de datos',
+          'Implementación de pipelines de CI/CD con GitHub Actions, optimizando ciclos de desarrollo',
+          'Administración de servidores Linux: monitoreo, actualizaciones y configuración de servicios XMPP (Ejabberd) para mensajería empresarial',
+        ],
+      },
+      job3: {
+        title: 'Desarrollador de Software y Auxiliar de Sistemas',
+        company: 'Laboratorio Delia Barraza',
+        period: 'Jun 2021 - Ago 2022',
+        location: 'Culiacán, Sinaloa',
+        desc: [
+          'Mantenimiento preventivo y correctivo de la infraestructura tecnológica en áreas críticas de química y diagnóstico',
+          'Administración de servidores virtuales y soporte avanzado vía escritorio remoto (RDP) para la continuidad operativa',
+          'Configuración avanzada de redes locales (VLANs) y sistemas de videovigilancia CCTV integrados a la red',
+          'Optimización de periféricos especializados: configuración de impresoras térmicas, escáneres de laboratorio y dispositivos de interfaz médica',
+          'Gestión de base de datos local para la resolución rápida de discrepancias en el registro de resultados',
+        ],
+      },
+    },
+    projects: {
+      title: 'Proyectos Destacados',
+      award: 'Prototipo ganador en feria de ingenierías TECNM Culiacán',
+      code: 'Código',
+      demo: 'Demo',
+      project1: {
+        title: 'Portal JGV',
+        description: 'Asistente virtual escolar y dashboard administrativo unificado para docentes, optimizando el seguimiento grupal y notificaciones en tiempo real sobre asistencias, calificaciones e incidencias.',
+      },
+      project2: {
+        title: 'Sistema de detección de placas de carros',
+        description: 'Sistema de visión artificial para identificación vehicular, preprocesamiento de imágenes en tiempo real y extracción de caracteres (OCR) para consulta en base de datos.',
+      },
+      project3: {
+        title: 'Sistema de detección de humedad y riego (IoT)',
+        description: 'Monitoreo automatizado y control de riego por goteo basado en análisis de datos de humedad y temperatura en tiempo real con sensores ambientales.',
+      },
+    },
+    skills: {
+      title: 'Sobre mí',
+      subtitle: 'Destaco por mi pensamiento analítico, adaptabilidad técnica y compromiso con la mejora continua de procesos. Mi experiencia abarca desde desarrollo de aplicaciones web hasta administración de infraestructura.',
+      languages: 'Lenguajes',
+      frameworks: 'Frameworks y Librerías',
+      infrastructure: 'Infraestructura y Cloud',
+      tools: 'Redes y Herramientas',
+      education: 'Educación',
+      degree: 'Licenciatura en Ingeniería en Sistemas Computacionales',
+      school: 'Instituto Tecnológico de Culiacán',
+      period: 'Jul 2020 – Jun 2025 • En proceso de titulación',
+      contact: '¿Interesado en colaborar?',
+      email: 'Envíame un correo',
+      whatsapp: 'WhatsApp',
+    },
+    footer: {
+      rights: '© 2026 Abraham Gael Herrera. Todos los derechos reservados.',
+    },
+  },
+  en: {
+    nav: {
+      home: 'Home',
+      experience: 'Experience',
+      projects: 'Projects',
+      about: 'About',
+    },
+    hero: {
+      title: 'Software Developer & Systems Engineer',
+      description: 'Systems Engineer with hybrid experience in software development, infrastructure administration, and technology education. Proven ability to resolve critical incidents and build robust web services.',
+      downloadCV: 'Download CV',
+    },
+    experience: {
+      title: 'Professional Experience',
+      job1: {
+        title: 'Technology Teacher',
+        company: 'Judith Gaxiola de Valdez Secondary School',
+        period: 'Apr 2022 - Jul 2024',
+        location: 'Culiacán, Sinaloa',
+        desc: [
+          'Instruction and development of curriculum focused on digital literacy, programming logic, and use of technological tools',
+          'Computer lab management, ensuring hardware operability and school network integrity',
+          'Mentoring student projects in technological innovation and fostering critical thinking through computer science',
+        ],
+      },
+      job2: {
+        title: 'Software Developer',
+        company: 'Quantum Connect',
+        period: 'Apr 2022 - Jul 2024',
+        location: 'Culiacán, Sinaloa',
+        desc: [
+          'Development and maintenance of web applications with Java and JavaScript, using the Spring ecosystem',
+          'Use of AWS cloud services (S3, EC2, and DynamoDB) for deployment and data persistence',
+          'Implementation of CI/CD pipelines with GitHub Actions, optimizing development cycles',
+          'Linux server administration: monitoring, updates, and configuration of XMPP services (Ejabberd) for enterprise messaging',
+        ],
+      },
+      job3: {
+        title: 'Software Developer and Systems Assistant',
+        company: 'Delia Barraza Laboratory',
+        period: 'Jun 2021 - Aug 2022',
+        location: 'Culiacán, Sinaloa',
+        desc: [
+          'Preventive and corrective maintenance of technological infrastructure in critical chemistry and diagnostic areas',
+          'Virtual server administration and advanced remote desktop support (RDP) for operational continuity',
+          'Advanced configuration of local networks (VLANs) and CCTV surveillance systems integrated into the network',
+          'Optimization of specialized peripherals: configuration of thermal printers, laboratory scanners, and medical interface devices',
+          'Local database management for rapid resolution of discrepancies in results recording',
+        ],
+      },
+    },
+    projects: {
+      title: 'Featured Projects',
+      award: 'Winning prototype at TECNM Culiacán Engineering Fair',
+      code: 'Code',
+      demo: 'Demo',
+      project1: {
+        title: 'Portal JGV',
+        description: 'School virtual assistant and unified administrative dashboard for teachers, optimizing group tracking and real-time notifications about attendance, grades, and incidents.',
+      },
+      project2: {
+        title: 'License Plate Detection System',
+        description: 'Artificial vision system for vehicle identification, real-time image preprocessing, and character extraction (OCR) for database consultation.',
+      },
+      project3: {
+        title: 'Humidity Detection and Irrigation System (IoT)',
+        description: 'Automated monitoring and drip irrigation control based on real-time analysis of humidity and temperature data with environmental sensors.',
+      },
+    },
+    skills: {
+      title: 'About Me',
+      subtitle: 'I stand out for my analytical thinking, technical adaptability, and commitment to continuous process improvement. My experience ranges from web application development to infrastructure administration.',
+      languages: 'Languages',
+      frameworks: 'Frameworks & Libraries',
+      infrastructure: 'Infrastructure & Cloud',
+      tools: 'Networks & Tools',
+      education: 'Education',
+      degree: 'Bachelor\'s Degree in Computer Systems Engineering',
+      school: 'Culiacán Institute of Technology',
+      period: 'Jul 2020 – Jun 2025 • Graduation in progress',
+      contact: 'Interested in collaborating?',
+      email: 'Send me an email',
+      whatsapp: 'WhatsApp',
+    },
+    footer: {
+      rights: '© 2026 Abraham Gael Herrera. All rights reserved.',
+    },
+  },
+};
