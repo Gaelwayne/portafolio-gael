@@ -16,7 +16,7 @@ export const translations = {
       job1: {
         title: 'Maestro de Tecnología',
         company: 'Escuela Secundaria Judith Gaxiola de Valdez',
-        period: 'Abr 2022 - Jul 2024',
+        period: 'Abril 2025 - Jul 2026',
         location: 'Culiacán, Sinaloa',
         desc: [
           'Instrucción y desarrollo de planes de estudio enfocados en alfabetización digital, lógica de programación y uso de herramientas tecnológicas',
